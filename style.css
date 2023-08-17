@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("kep/graveyard.jpg")  ;
+    color: red;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  td {
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(50, 179, 10);
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .score {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .timer {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
