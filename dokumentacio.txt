@@ -1,0 +1,30 @@
+Dokumentáció: The Night of the Living Duck's játék
+
+Játékmenet
+- A játékban kacsák mozognak a játéktáblán. A cél az, hogy minél több kacsát lőjünk le pontszerzés céljából.
+- Az első oszlop minden sorában egy "sírkő" látható, ami azokat a helyeket jelöli, ahol új kacsák jelennek meg.
+-ha eléri az utolso oszlopot -1 pont (jelenleg nem müködik )
+
+## Játékvezérlés
+- A játékosnak a kacsa kattintásával lehet lelőni egy kacsát. Ez +1 pontot eredményez.
+- Ha egy kacsa eléri az utolsó oszlopot, a játékos pontot veszít (-1 pont).
+
+## Pontszám és Időzítő
+- A játékban pontszámláló található, amely megjeleníti a játékos aktuális pontszámát.
+- Időzítő számlálja le a hátralévő időt. A játék 60 másodperces időkorlátot tartalmaz.
+
+## Játék Vége
+- A játék akkor ér véget, ha lejár az időkorlát
+- A játék végekor egy értesítés jelenik meg a játékos aktuális pontszámával.
+
+## Fejlesztői Információ
+A játék a következő technológiákat használja:
+- HTML, CSS és JavaScript nyelvek.
+- Az `index.html` fájl tartalmazza a játék kezdeti felületét és a szükséges fájlok importját.
+- A `main.js` fájl vezérli a játék logikáját, beleértve a kacsák mozgását, lelövésüket és az időzítést.
+
+## További Fejlesztési Lehetőségek
+- Grafikus elemek, mint például animációk, hatások hozzáadása a játékélmény fokozásához.
+- Több nehézségi szint hozzáadása, ahol például a kacsák gyorsabban mozognak vagy kevesebb idő áll rendelkezésre.
+- További játékstatisztikák és eredmények rögzítése a játékosok számára.
+
