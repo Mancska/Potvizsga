@@ -22,6 +22,8 @@ export default class Game {
       const row = this.table.insertRow();
       for (let j = 0; j < 18; j++) {
         const cell = row.insertCell();
+        if (j === 17) { 
+          cell.classList.add('last-cell');}
         if (j === 0) {
           const img = document.createElement('img');
           img.src = 'kep/tomb.jpg'; // Replace with the actual image path
@@ -30,7 +32,8 @@ export default class Game {
           cell.appendChild(img);
           cell.classList.add('tombstone');
           this.tombstoneCells.push(cell);
-        } else {
+        }
+         else {
           cell.addEventListener('click', () => this.onClickDuck(i, j));
         }
       }
