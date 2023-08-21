@@ -68,3 +68,27 @@ footer {
 .last-cell {
   background-color: black;
 }
+@media (max-width: 768px) {
+  body {
+    gap: 10px;
+  }
+
+  .game-container {
+    width: 90%; /* Adjust as needed */
+  }
+
+  td {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .score,
+  .timer {
+    font-size: 18px;
+  }
+
+  .instructions {
+    font-size: 18px;
+  }
+}
