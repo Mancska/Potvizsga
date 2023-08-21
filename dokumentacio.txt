@@ -7,7 +7,7 @@ Játékmenet
 
 ## Játékvezérlés
 - A játékosnak a kacsa kattintásával lehet lelőni egy kacsát. Ez +1 pontot eredményez.
-- Ha egy kacsa eléri az utolsó oszlopot, a játékos pontot veszít (-1 pont).
+
 
 ## Pontszám és Időzítő
 - A játékban pontszámláló található, amely megjeleníti a játékos aktuális pontszámát.
